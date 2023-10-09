@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .flex h1 {
+
+            background-color: blue;
+            width: 800px;
+            height: 300px;
+            margin-left: 25%;
+            margin-top: 5%;
+            display: flex;
+
+        }
+
+        .flex1 h3 {
+
+            background-color: yellow;
+            width: 700px;
+            height: 240px;
+            margin-left: 28%;
+            margin-top: -19%;
+            display: flex;
+
+        }
+
+        .flex1 h3 p {
+
+            margin-left: 7%;
+            margin-top: 1%;
+
+        }
+
+        .flex1 h3 p::selection {
+
+            background-color: black;
+            color: yellowgreen;
+        }
+
+        .flex1 h3 p::first-letter {
+
+            color: blue;
+            font-size: 50px;
+        }
+
+        .flex1 h3 p::before {
+
+            content: "prem";
+        }
+
+        .flex1 h3 p::after {
+
+            content: "After";
+            color: red;
+            font-size: 30px;
+        }
+
+        .flex2 h1 {
+
+            background-color: blue;
+            width: 800px;
+            height: 480px;
+            margin-left: 25%;
+            margin-top: 5%;
+            display: flex;
+        }
+
+        .flex3 h3 {
+
+            background-color: yellow;
+            width: 500px;
+            height: 478px;
+            margin-left: 34%;
+            margin-top: -33.3%;
+            display: flex;
+
+
+        }
+
+        .flex3 h3 p {
+
+            margin-left: 7%;
+            margin-top: 1%;
+        }
+
+        .read2 {
+
+            margin-top: -3%
+        }
+
+        .read1 {
+
+                margin-top: -3%;
+        }
+
+        .flex3 h3 p::first-line {
+
+            color: white;
+            background-color: rgb(18, 42, 179);
+        }
+
+        .flex3 h3 p:hover{
+
+            background-color: black;
+            color: white;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="read1">
+        <div class="flex">
+            <h1></h1>
+
+            <div class="flex1">
+                <h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium iusto voluptatibus,<br>
+                        inventore nihil delectus beatae cumque laboriosam tempora explicabo totam!
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse molestias eum eligendi a
+                        similique <br> praesentium exercitationem maxime, error adipisci, perferendis repellat dolor
+                        dicta nostrum? <br> Facere perferendis voluptates laborum qui necessitatibus!
+                    </p>
+                </h3>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="read2">
+        <div class="flex2">
+            <h1></h1>
+
+            <div class="flex3">
+                <h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium iusto voluptatibus,<br>
+                        inventore nihil delectus beatae cumque laboriosam tempora explicabo totam!
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse molestias eum eligendi a
+                        similique <br> praesentium exercitationem maxime, error adipisci, perferendis repellat dolor
+                        dicta nostrum? <br> Facere perferendis voluptates laborum qui necessitatibus!
+                    </p>
+                </h3>
+
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
